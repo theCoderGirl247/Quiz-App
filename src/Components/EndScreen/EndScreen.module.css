@@ -1,0 +1,95 @@
+
+body{
+    color: white;
+}
+
+#endScreen{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    overflow: hidden;
+}
+
+#endScreen::before{
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: url('../src/assets/topicsCollage.png') no-repeat center center/cover;
+    background-attachment: local;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    opacity: 0.75;
+    filter: blur(2px);
+    -webkit-filter: blur(2px);
+    animation: zoomIn 20s infinite alternate; /* Zoom animation */
+  }
+
+#resHead{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+}
+
+#scrHead{
+    margin: 40px 0px;
+    font-size: 2rem;
+}
+
+#resultBox{
+    width: 60vh;
+    height: 60vh;
+    background-color: rgba(255, 255, 255, 0.178);
+    border: 1px solid rgba(255, 255, 255, 0.856);
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px hsla(0, 0%, 75%, 0.753);
+}
+
+.restartButton{
+    width: 250px;
+    height: 120px;
+    background-color: rgba(187, 187, 187, 0.233); 
+    border: 2px solid white;
+    border-radius: 30px;
+    padding: 10px 50px;
+    margin: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 2rem;
+    box-shadow: 2px 2px 5px hsla(0, 0%, 83%, 0.342); 
+    text-shadow: 2px 2px 4px rgb(44, 44, 44);
+    transition: all 0.1s linear;
+    animation: button_anim 0.5s linear 0s infinite alternate;
+}
+
+@keyframes button_anim {
+
+ form{
+   transform: scale(1);
+ }
+
+ to{
+   transform: scale(1.1);
+ }
+ 
+}
+
+.restartButton:hover{
+    cursor: pointer;
+    animation-play-state: paused;
+    background-color: rgba(255, 255, 255, 0.692);
+    color: black;
+}
+
+@keyframes zoomIn {
+    0% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(1.2); /* Adjust the scale factor as needed */
+    }
+  }
+  

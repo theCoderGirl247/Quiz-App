@@ -1,0 +1,10 @@
+/* CSS Reset  */
+
+body{
+  margin: 0px;
+  padding: 0px;
+}
+
+p, h1, h2, h3, button, span{
+  user-select: none;
+}
