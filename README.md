@@ -1,6 +1,8 @@
 # Quiz App
 This Quiz App is an interactive platform designed to test users’ knowledge across a wide range of topics. Each quiz session presents questions randomly selected from an extensive database, ensuring a unique and challenging experience every time. The app covers a variety of topics, catering to diverse interests and knowledge areas. To keep the quiz engaging, a timer is included for each question, adding an extra layer of challenge and urgency.
 
+![quiz_app_002](https://github.com/user-attachments/assets/3ec1d4c1-6396-4516-9ab9-db55b3c29ef1)
+
 **Key Features:**
 
 1. **Diverse Question Pool:** Questions are randomly chosen from an extensive database, offering fresh challenges with each playthrough.
