@@ -13,7 +13,7 @@
     position: absolute;
     top: 0px;
     left: 0px;
-    background: url('../src/assets/asset30.jpg') no-repeat center center/cover;
+    background: url('/asset30.jpg') no-repeat center center/cover;
     background-attachment: local;
     width: 100vw;
     height: 100vh;
