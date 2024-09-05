@@ -3,7 +3,7 @@
 This application is hosted at the following URL: [QuizApp](https://codergirl247quizapp.netlify.app) Please visit the site to explore its features.
 
 
-This Quiz App is an interactive platform designed to test users’ knowledge across a wide range of topics. Each quiz session presents questions randomly selected from an extensive database, ensuring a unique and challenging experience every time. The app covers a variety of topics, catering to diverse interests and knowledge areas. To keep the quiz engaging, a timer is included for each question, adding an extra layer of challenge and urgency.
+It is an interactive platform designed to test users’ knowledge across a wide range of topics. Each quiz session presents questions randomly selected from an extensive database, ensuring a unique and challenging experience every time. The app covers a variety of topics, catering to diverse interests and knowledge areas. To keep the quiz engaging, a timer is included for each question, adding an extra layer of challenge and urgency.
 
 ![quiz_app1](https://github.com/user-attachments/assets/5a23608a-02a4-44a1-8b54-5693401d23ba)
 
